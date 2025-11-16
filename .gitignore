@@ -15,6 +15,12 @@ uv.lock
 
 # Environments
 .venv
+.env
 
 # Visual Studio Code
 .vscode/
+
+# Data
+.DS_Store
+data/
+logs/
