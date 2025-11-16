@@ -1,0 +1,13 @@
+---
+ChEMBL:
+  version: "36"
+  download_chembl_file: "data/raw-data"
+  parsed_chembl_file: "data/parsed-data"
+
+Pipeline:
+  data: ["ChEMBL"]
+
+Logging:
+  level: DEBUG
+  file: logs/ue.log
+  project_name: "UnderstandingEmbeddings"
